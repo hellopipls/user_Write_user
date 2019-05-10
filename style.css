@@ -1,0 +1,76 @@
+body {  
+  background-color:#EFF2D7;   
+   margin: 10px; /* Выравниваем по центру */
+}
+
+
+.wrapper { 
+  display: grid; 
+
+  grid-template-areas: 
+  "n c";              
+
+  grid-template-columns:3fr 1fr; 
+
+  padding: 30px;  
+}
+
+button{   
+    width: 100px; /* Ширина слоя */
+    border-radius:10px;
+    outline:none;
+    width: 50px;  
+    height:50px; 
+    border-radius:80px 80px 80px 80px;
+    background-color:#5E7745;
+    padding:8px;/* Поля вокруг текста */
+} 
+
+input{
+     width: 200px;
+     border-radius:30px 10px 10px 0px;
+     padding-left:10px;
+     padding-top:15px;
+     outline:none;
+     margin: 10px;
+}
+  
+ 
+   #toSend1, 
+   #toSend2 {     
+    background-color: #c0c0c0; /* Цвет фона слоя */
+    padding: 15px; /* Поля вокруг текста */   
+    width: 300px; /* Ширина слоя */
+    border: 2px solid #5E7745;
+    border-radius: 5px;
+   }
+
+   .user1{
+     grid-area:c; 
+   }
+
+   .user2{
+      grid-area:n; 
+   }
+
+   .user2 p,
+   .user1 p{
+    background-color: #C7C6C6;
+    padding: 10px; /* Поля вокруг текста */   
+    border: 2px solid #c0c0c0;
+    border-radius: 5px;
+    width: 200px; /* Ширина слоя */
+   }
+
+  
+   .user2 .toAccept2 p#demo2a,
+   .user1 .toAccept1  p#demo1a{
+    background-color:  #D3EF96;
+    position: relative;
+    top: 0px;
+    left: 70px;
+     }
+
+ 
+
+ 
